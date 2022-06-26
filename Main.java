@@ -6,6 +6,11 @@ import java.util.*;
 
 public class Main {
     public static void questionsAndAnswers() {
+        String[] factsRaz1 = {"What is the population of Razgrad?", "30000", "25000", "20000", "15000"};
+        String[] factsRaz2 = {"Which century was Abritus established?", "1st", "3rd", "4th", "2nd"};
+        String[] factsRaz3 = {"How many municipalities does region Razgrad have?","7", "5", "4", "8"};
+        String[] factsRaz4 = {"Which river flows through Razgrad?", "BeliLom", "Danube", "Iskar", "Arda"};
+       
         String[] Sports1 = {"What is the most popular sport?", "Football", "Basketball", "Volleyball", "Tennis"};
         String[] Sports2 = {"How many World Cups has the Bulgarian National team participated in?", "7", "5", "4", "6"};
         String[] Sports3 = {"Which of the following is NOT an Olympic sport?", "Cricket", "Swimming", "Table tennis", "Gymnastics"};
@@ -19,7 +24,7 @@ public class Main {
         String[] Geography1 = {"Which of these countries has the highest population?", "Thailand", "UK", "France", "Italy"};
         String[] Geography2 = {"How many emirates are there in the UAE?", "7", "8", "6", "5"};
         String[] Geography3 = {"How many capitals does The Republic of South Africa have?", "3", "1", "2", "0"};
-        String[] Geography4 = {"Mount Everest is the highest point in the world. Where is mount Everest?", "Himalayan", "The Andes", "Cordillera", "Alps"};
+        String[] Geography4 = {"Mount Everest is the highest point in the world. Where is mount Everest?", "Himalayan", "Andes", "Cordillera", "Alps"};
         // NOTE: These arrays contain both the questions and the answers and are only used for visualisation
 
     }
@@ -31,7 +36,7 @@ public class Main {
         String[] factsRazgrad1 = {"30000", "25000", "20000", "15000"};
         String[] factsRazgrad2 = {"1st", "3rd", "4th", "2nd"};
         String[] factsRazgrad3 = {"7", "5", "4", "8"};
-        String[] factsRazgrad4 = {"BeliLom", "The Danube", "Iskar", "Arda"};
+        String[] factsRazgrad4 = {"BeliLom", "Danube", "Iskar", "Arda"};
         //Questions and answers for "Facts about Razgrad"
 
         Scanner sc = new Scanner(System.in);
@@ -263,7 +268,7 @@ public class Main {
             String[] Geography1 = {"Thailand", "UK", "France", "Italy"};
             String[] Geography2 = {"7", "8", "6", "5"};
             String[] Geography3 = {"3", "1", "2", "0"};
-            String[] Geography4 = {"Himalayan", "The Andes", "Cordillera", "Alps"};
+            String[] Geography4 = {"Himalayan", "Andes", "Cordillera", "Alps"};
             //Questions and answers about "Geography"
 
             Scanner sc = new Scanner(System.in);
