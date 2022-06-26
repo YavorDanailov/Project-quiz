@@ -13,21 +13,23 @@ public class Main {
 
         String[] Programming1 = {"What is the first programming language ever?", "FORTRAN", "LISP", "COBOL", "BASIC"};
         String[] Programming2 = {"Which of these is considered the easiest to learn?", "HTML", "JavaScript", "C++", "Python"};
-        String[] Programming3 = {"How long approximately does it take to learn JAVA?", "8 months", "6 months", "9 months", "7 months"};
+        String[] Programming3 = {"How many months approximately does it take to learn JAVA?", "8", "6", "9", "7"};
         String[] Programming4 = {"How many programming languages are there?", "700", "100", "250", "500"};
 
-        String[] Geography1 = {"Which of these countries has the highest population?", "Thailand", "The UK", "France", "Italy"};
+        String[] Geography1 = {"Which of these countries has the highest population?", "Thailand", "UK", "France", "Italy"};
         String[] Geography2 = {"How many emirates are there in the UAE?", "7", "8", "6", "5"};
         String[] Geography3 = {"How many capitals does The Republic of South Africa have?", "3", "1", "2", "0"};
-        String[] Geography4 = {"Mount Everest is the highest point in the world. Where is mount Everest?", "The Himalayan", "The Andes", "Cordillera", "Alps"};
+        String[] Geography4 = {"Mount Everest is the highest point in the world. Where is mount Everest?", "Himalayan", "The Andes", "Cordillera", "Alps"};
         // NOTE: These arrays contain both the questions and the answers and are only used for visualisation
 
     }
 
     public static void factsRazgrad() {
+        
+        //Note: Every answer should be typed as it is visiualized on the screen (e.g. BeliLom and NOT Beli Lom) for most accurate execution
         String[] factsQuest = {"What is the population of Razgrad?", "Which century was Abritus established?", "How many municipalities does region Razgrad have?", "Which river flows through Razgrad?"};
         String[] factsRazgrad1 = {"30000", "25000", "20000", "15000"};
-        String[] factsRazgrad2 = {"1st", "3rd", "4th", "2"};
+        String[] factsRazgrad2 = {"1st", "3rd", "4th", "2nd"};
         String[] factsRazgrad3 = {"7", "5", "4", "8"};
         String[] factsRazgrad4 = {"BeliLom", "The Danube", "Iskar", "Arda"};
         //Questions and answers for "Facts about Razgrad"
@@ -100,6 +102,7 @@ public class Main {
         }
 
         public static void sports (){
+            //Note: Every answer should be typed as it is visiualized on the screen (e.g. Cricket and NOT cricket) for most accurate execution
             String[] SportsQuest = {"What is the most popular sport?", "How many World Cups has the Bulgarian National team participated in?", "Which of the following is NOT an Olympic sport?", "What is the oldest sport in history?"};
             String[] Sports1 = {"Football", "Basketball", "Volleyball", "Tennis"};
             String[] Sports2 = {"7", "5", "4", "6"};
@@ -177,7 +180,8 @@ public class Main {
         }
 
         public static void programming (){
-            String[] ProgrammingQuest = {"What is the first programming language ever?", "Which of these is considered the easiest to learn?", "How long approximately does it take to learn JAVA?", "How many programming languages are there?"};
+             //Note: Every answer should be typed as it is visiualized on the screen (e.g. LISP and NOT lisp) for most accurate execution
+            String[] ProgrammingQuest = {"What is the first programming language ever?", "Which of these is considered the easiest to learn?", "How many months approximately does it take to learn JAVA?", "How many programming languages are there?"};
             String[] Programming1 = {"FORTRAN", "LISP", "COBOL", "BASIC"};
             String[] Programming2 = {"HTML", "JavaScript", "C++", "Python"};
             String[] Programming3 = {"8 ", "6", "9", "7"};
@@ -254,8 +258,9 @@ public class Main {
         }
 
         public static void geography(){
+             //Note: Every answer should be typed as it is visiualized on the screen (e.g. Thailand and NOT thailand) for most accurate execution
             String[] GeographyQuest = {"Which of these countries has the highest population?", "How many emirates are there in the UAE?", "How many capitals does The Republic of South Africa have?", "Mount Everest is the highest point in the world. Where is mount Everest?"};
-            String[] Geography1 = {"Thailand", "The UK", "France", "Italy"};
+            String[] Geography1 = {"Thailand", "UK", "France", "Italy"};
             String[] Geography2 = {"7", "8", "6", "5"};
             String[] Geography3 = {"3", "1", "2", "0"};
             String[] Geography4 = {"Himalayan", "The Andes", "Cordillera", "Alps"};
