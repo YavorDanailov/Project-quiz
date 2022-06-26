@@ -8,11 +8,11 @@ public class Main {
     public static void questionsAndAnswers() {
         String[] factsRaz1 = {"What is the population of Razgrad?", "30000", "25000", "20000", "15000"};
         String[] factsRaz2 = {"Which century was Abritus established?", "1st", "3rd", "4th", "2nd"};
-        String[] factsRaz3 = {"How many municipalities does region Razgrad have?","7", "5", "4", "8"};
+        String[] factsRaz3 = {"How many municipalities does region Razgrad have?", "7", "5", "4", "8"};
         String[] factsRaz4 = {"Which river flows through Razgrad?", "BeliLom", "Danube", "Iskar", "Arda"};
        
         String[] Sports1 = {"What is the most popular sport?", "Football", "Basketball", "Volleyball", "Tennis"};
-        String[] Sports2 = {"How many World Cups has the Bulgarian National team participated in?", "7", "5", "4", "6"};
+        String[] Sports2 = {"How many World Cups has the Bulgarian football National team participated in?", "7", "5", "4", "6"};
         String[] Sports3 = {"Which of the following is NOT an Olympic sport?", "Cricket", "Swimming", "Table tennis", "Gymnastics"};
         String[] Sports4 = {"What is the oldest sport in history?", "Polo", "Baseball", "Rugby", "Boxing"};
 
@@ -108,7 +108,7 @@ public class Main {
 
         public static void sports (){
             //Note: Every answer should be typed as it is visiualized on the screen (e.g. Cricket and NOT cricket) for most accurate execution
-            String[] SportsQuest = {"What is the most popular sport?", "How many World Cups has the Bulgarian National team participated in?", "Which of the following is NOT an Olympic sport?", "What is the oldest sport in history?"};
+            String[] SportsQuest = {"What is the most popular sport?", "How many World Cups has the Bulgarian football National team participated in?", "Which of the following is NOT an Olympic sport?", "What is the oldest sport in history?"};
             String[] Sports1 = {"Football", "Basketball", "Volleyball", "Tennis"};
             String[] Sports2 = {"7", "5", "4", "6"};
             String[] Sports3 = {"Cricket", "Swimming", "Table tennis", "Gymnastics"};
