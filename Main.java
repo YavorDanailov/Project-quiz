@@ -14,7 +14,7 @@ public class Main {
         String[] Programming1 = {"What is the first programming language ever?", "FORTRAN", "LISP", "COBOL", "BASIC"};
         String[] Programming2 = {"Which of these is considered the easiest to learn?", "HTML", "JavaScript", "C++", "Python"};
         String[] Programming3 = {"How long approximately does it take to learn JAVA?", "8 months", "6 months", "9 months", "7 months"};
-        String[] Programming4 = {"How many programming languages are there?", "700 + ", "100", "250", "500"};
+        String[] Programming4 = {"How many programming languages are there?", "700", "100", "250", "500"};
 
         String[] Geography1 = {"Which of these countries has the highest population?", "Thailand", "The UK", "France", "Italy"};
         String[] Geography2 = {"How many emirates are there in the UAE?", "7", "8", "6", "5"};
@@ -25,9 +25,9 @@ public class Main {
     }
 
     public static void factsRazgrad() {
-        String[] factsQuest = {"What is the population of Razgrad?", "When was Abritus established?", "How many municipalities does region Razgrad have?", "Which river flows through Razgrad?"};
+        String[] factsQuest = {"What is the population of Razgrad?", "Which century was Abritus established?", "How many municipalities does region Razgrad have?", "Which river flows through Razgrad?"};
         String[] factsRazgrad1 = {"30000", "25000", "20000", "15000"};
-        String[] factsRazgrad2 = {"1st century", "3rd century", "4th century", "2nd century"};
+        String[] factsRazgrad2 = {"1st", "3rd", "4th", "2"};
         String[] factsRazgrad3 = {"7", "5", "4", "8"};
         String[] factsRazgrad4 = {"BeliLom", "The Danube", "Iskar", "Arda"};
         //Questions and answers for "Facts about Razgrad"
@@ -180,7 +180,7 @@ public class Main {
             String[] ProgrammingQuest = {"What is the first programming language ever?", "Which of these is considered the easiest to learn?", "How long approximately does it take to learn JAVA?", "How many programming languages are there?"};
             String[] Programming1 = {"FORTRAN", "LISP", "COBOL", "BASIC"};
             String[] Programming2 = {"HTML", "JavaScript", "C++", "Python"};
-            String[] Programming3 = {"8 months", "6 months", "9 months", "7 months"};
+            String[] Programming3 = {"8 ", "6", "9", "7"};
             String[] Programming4 = {"700", "100", "250", "500"};
             //Questions and answers about "Programming"
 
@@ -258,7 +258,7 @@ public class Main {
             String[] Geography1 = {"Thailand", "The UK", "France", "Italy"};
             String[] Geography2 = {"7", "8", "6", "5"};
             String[] Geography3 = {"3", "1", "2", "0"};
-            String[] Geography4 = {"The Himalayan", "The Andes", "Cordillera", "Alps"};
+            String[] Geography4 = {"Himalayan", "The Andes", "Cordillera", "Alps"};
             //Questions and answers about "Geography"
 
             Scanner sc = new Scanner(System.in);
