@@ -7,7 +7,7 @@ import java.util.*;
 public class Main {
     public static void questionsAndAnswers() {
         String[] factsRaz1 = {"What is the population of Razgrad?", "30000", "25000", "20000", "15000"};
-        String[] factsRaz2 = {"Which century was Abritus established?", "1st", "3rd", "4th", "2nd"};
+        String[] factsRaz2 = {"Which century was Abritus established in?", "1st", "3rd", "4th", "2nd"};
         String[] factsRaz3 = {"How many municipalities does region Razgrad have?", "7", "5", "4", "8"};
         String[] factsRaz4 = {"Which river flows through Razgrad?", "BeliLom", "Danube", "Iskar", "Arda"};
        
@@ -32,7 +32,7 @@ public class Main {
     public static void factsRazgrad() {
         
         //Note: Every answer should be typed as it is visiualized on the screen (e.g. BeliLom and NOT Beli Lom) for most accurate execution
-        String[] factsQuest = {"What is the population of Razgrad?", "Which century was Abritus established?", "How many municipalities does region Razgrad have?", "Which river flows through Razgrad?"};
+        String[] factsQuest = {"What is the population of Razgrad?", "Which century was Abritus established in?", "How many municipalities does region Razgrad have?", "Which river flows through Razgrad?"};
         String[] factsRazgrad1 = {"30000", "25000", "20000", "15000"};
         String[] factsRazgrad2 = {"1st", "3rd", "4th", "2nd"};
         String[] factsRazgrad3 = {"7", "5", "4", "8"};
