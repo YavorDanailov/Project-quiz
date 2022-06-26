@@ -12,7 +12,7 @@ public class Main {
         String[] factsRaz4 = {"Which river flows through Razgrad?", "BeliLom", "Danube", "Iskar", "Arda"};
        
         String[] Sports1 = {"What is the most popular sport?", "Football", "Basketball", "Volleyball", "Tennis"};
-        String[] Sports2 = {"How many World Cups has the Bulgarian football National team participated in?", "7", "5", "4", "6"};
+        String[] Sports2 = {"How many World Cups has the Bulgarian football National team participated in?", "7", "6", "5", "4"};
         String[] Sports3 = {"Which of the following is NOT an Olympic sport?", "Cricket", "Swimming", "Table tennis", "Gymnastics"};
         String[] Sports4 = {"What is the oldest sport in history?", "Polo", "Baseball", "Rugby", "Boxing"};
 
